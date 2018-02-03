@@ -1,10 +1,9 @@
 {
     "name" : "Framework",
-    "summary" : "cookiecutter bootstrap template for swift framework",
-    "bundle_identifier" : "me.rahulkatariya",
-    "full_name": "Rahul Katariya",
-    "email": "rahulkatariya@me.com",
-    "github_name" : "JetpackSwift",
-    "homepage" : "http://rahulkatariya.me",
-    "twitter": "rahulkatariya91"
+    "summary" : "cookiecutter bootstrap template",
+    "bundle_identifier" : "me.ddrccw",
+    "full_name": "ddrccw",
+    "email": "ddrccw@gmail.com",
+    "github_name" : "ddrccw",
+    "homepage" : "http://ddrccw.github.io/"
 }

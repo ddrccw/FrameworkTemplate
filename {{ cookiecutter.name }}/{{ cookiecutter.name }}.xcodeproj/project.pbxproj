@@ -7,55 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A8EF4222025B31700AD3C9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4212025B31700AD3C9A /* AppDelegate.swift */; };
+		2A8EF4242025B31700AD3C9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8EF4232025B31700AD3C9A /* ViewController.swift */; };
+		2A8EF4272025B31700AD3C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF4252025B31700AD3C9A /* Main.storyboard */; };
+		2A8EF4292025B31700AD3C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF4282025B31700AD3C9A /* Assets.xcassets */; };
+		2A8EF42C2025B31700AD3C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8EF42A2025B31700AD3C9A /* LaunchScreen.storyboard */; };
 		3549BB501DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */ = {isa = PBXBuildFile; fileRef = 3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */; };
-		3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
-		3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
-		3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */; };
-		354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5841F8A659800B18FAE /* Quick.framework */; };
-		354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; };
-		354AD5881F8A65B500B18FAE /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5851F8A659800B18FAE /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		354AD5891F8A65B500B18FAE /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354AD5841F8A659800B18FAE /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		359649031FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649041FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649051FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		359649061FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */; };
-		35B7422F1F82A5E000829B21 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7422D1F82A5DF00829B21 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35B742301F82A5E000829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7422E1F82A5E000829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35B742311F82A5EC00829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7422D1F82A5DF00829B21 /* Nimble.framework */; };
-		35B742321F82A5EC00829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B7422E1F82A5E000829B21 /* Quick.framework */; };
-		35B742361F82A61E00829B21 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		35B742381F82A62900829B21 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742341F82A61D00829B21 /* Nimble.framework */; };
-		35B742391F82A62900829B21 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B742351F82A61E00829B21 /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3549BB671DA38ADB00C63030 /* PBXContainerItemProxy */ = {
+		2A8EF4312025B42F00AD3C9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3549BB201DA389CD00C63030;
 			remoteInfo = "{{ cookiecutter.name }}-iOS";
 		};
-		3549BB761DA38AEF00C63030 /* PBXContainerItemProxy */ = {
+		3549BB671DA38ADB00C63030 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3549BB471DA389F300C63030;
-			remoteInfo = "{{ cookiecutter.name }}-tvOS";
-		};
-		3549BB851DA38B0000C63030 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3549BAFC1DA387DB00C63030 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3549BB3A1DA389E800C63030;
-			remoteInfo = "{{ cookiecutter.name }}-macOS";
+			remoteGlobalIDString = 3549BB201DA389CD00C63030;
+			remoteInfo = "{{ cookiecutter.name }}-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,32 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				35B7422F1F82A5E000829B21 /* Nimble.framework in Embed Frameworks */,
-				35B742301F82A5E000829B21 /* Quick.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35B742331F82A60600829B21 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				35B742361F82A61E00829B21 /* Nimble.framework in Embed Frameworks */,
-				35B742371F82A61E00829B21 /* Quick.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		35B7423A1F82A63600829B21 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				354AD5881F8A65B500B18FAE /* Nimble.framework in Embed Frameworks */,
-				354AD5891F8A65B500B18FAE /* Quick.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,51 +48,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A8EF41F2025B31700AD3C9A /* {{ cookiecutter.name }}-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "{{ cookiecutter.name }}-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8EF4212025B31700AD3C9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A8EF4232025B31700AD3C9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A8EF4262025B31700AD3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A8EF4282025B31700AD3C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8EF42B2025B31700AD3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A8EF42D2025B31700AD3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB171DA3890B00C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = {{ cookiecutter.name }}.h; sourceTree = "<group>"; };
 		3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = {{ cookiecutter.name }}.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB551DA38A5E00C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		3549BB571DA38A8800C63030 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		3549BB581DA38A8800C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{ cookiecutter.name }}Tests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}Spec.swift; sourceTree = "<group>"; };
-		354AD5841F8A659800B18FAE /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
-		354AD5851F8A659800B18FAE /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.name }}.swift; sourceTree = "<group>"; };
-		35B7422D1F82A5DF00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		35B7422E1F82A5E000829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		35B742341F82A61D00829B21 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
-		35B742351F82A61E00829B21 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2A8EF41C2025B31700AD3C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3549BB1D1DA389CD00C63030 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB2A1DA389DB00C63030 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB371DA389E800C63030 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB441DA389F300C63030 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,40 +82,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B742311F82A5EC00829B21 /* Nimble.framework in Frameworks */,
-				35B742321F82A5EC00829B21 /* Quick.framework in Frameworks */,
 				3549BB661DA38ADB00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB6D1DA38AEF00C63030 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				354AD5861F8A659800B18FAE /* Quick.framework in Frameworks */,
-				354AD5871F8A659800B18FAE /* Nimble.framework in Frameworks */,
-				3549BB751DA38AEF00C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB7C1DA38B0000C63030 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35B742381F82A62900829B21 /* Nimble.framework in Frameworks */,
-				35B742391F82A62900829B21 /* Quick.framework in Frameworks */,
-				3549BB841DA38B0000C63030 /* {{ cookiecutter.name }}.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A8EF4202025B31700AD3C9A /* {{ cookiecutter.name }}-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2A8EF4212025B31700AD3C9A /* AppDelegate.swift */,
+				2A8EF4232025B31700AD3C9A /* ViewController.swift */,
+				2A8EF4252025B31700AD3C9A /* Main.storyboard */,
+				2A8EF4282025B31700AD3C9A /* Assets.xcassets */,
+				2A8EF42A2025B31700AD3C9A /* LaunchScreen.storyboard */,
+				2A8EF42D2025B31700AD3C9A /* Info.plist */,
+			);
+			path = "{{ cookiecutter.name }}-Demo";
+			sourceTree = "<group>";
+		};
 		3549BAFB1DA387DB00C63030 = {
 			isa = PBXGroup;
 			children = (
-				3549BB161DA3890B00C63030 /* Sources */,
+				3549BB161DA3890B00C63030 /* {{ cookiecutter.name }} */,
 				3549BB191DA3890B00C63030 /* Tests */,
+				2A8EF4202025B31700AD3C9A /* {{ cookiecutter.name }}-Demo */,
 				3549BB061DA387DB00C63030 /* Products */,
 				357D954B1DA3F2B400AEC55F /* Frameworks */,
 			);
@@ -197,29 +117,24 @@
 			isa = PBXGroup;
 			children = (
 				3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */,
-				3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */,
 				3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */,
-				3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */,
-				3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */,
+				2A8EF41F2025B31700AD3C9A /* {{ cookiecutter.name }}-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3549BB161DA3890B00C63030 /* Sources */ = {
+		3549BB161DA3890B00C63030 /* {{ cookiecutter.name }} */ = {
 			isa = PBXGroup;
 			children = (
-				359649011FB18CBF00FC7ADC /* Core */,
+				359649011FB18CBF00FC7ADC /* Classes */,
 				3549BB541DA38A4000C63030 /* Supporting Files */,
 			);
-			path = Sources;
+			path = {{ cookiecutter.name }};
 			sourceTree = "<group>";
 		};
 		3549BB191DA3890B00C63030 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				3549BB8A1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
 			);
 			path = Tests;
@@ -230,7 +145,6 @@
 			children = (
 				3549BB181DA3890B00C63030 /* {{ cookiecutter.name }}.h */,
 				3549BB171DA3890B00C63030 /* Info.plist */,
-				3549BB551DA38A5E00C63030 /* Info-tvOS.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -239,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				3549BB581DA38A8800C63030 /* Info.plist */,
-				3549BB571DA38A8800C63030 /* Info-tvOS.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -247,22 +160,16 @@
 		357D954B1DA3F2B400AEC55F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35B742341F82A61D00829B21 /* Nimble.framework */,
-				35B742351F82A61E00829B21 /* Quick.framework */,
-				35B7422D1F82A5DF00829B21 /* Nimble.framework */,
-				35B7422E1F82A5E000829B21 /* Quick.framework */,
-				354AD5851F8A659800B18FAE /* Nimble.framework */,
-				354AD5841F8A659800B18FAE /* Quick.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		359649011FB18CBF00FC7ADC /* Core */ = {
+		359649011FB18CBF00FC7ADC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				359649021FB18CBF00FC7ADC /* {{ cookiecutter.name }}.swift */,
 			);
-			path = Core;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,33 +183,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3549BB2B1DA389DB00C63030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3549BB521DA38A2100C63030 /* {{ cookiecutter.name }}.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB381DA389E800C63030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3549BB531DA38A2200C63030 /* {{ cookiecutter.name }}.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB451DA389F300C63030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3549BB511DA38A2000C63030 /* {{ cookiecutter.name }}.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2A8EF41E2025B31700AD3C9A /* {{ cookiecutter.name }}-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8EF42E2025B31700AD3C9A /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-Demo" */;
+			buildPhases = (
+				2A8EF41B2025B31700AD3C9A /* Sources */,
+				2A8EF41C2025B31700AD3C9A /* Frameworks */,
+				2A8EF41D2025B31700AD3C9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8EF4322025B42F00AD3C9A /* PBXTargetDependency */,
+			);
+			name = "{{ cookiecutter.name }}-Demo";
+			productName = "{{ cookiecutter.name }}-Demo";
+			productReference = 2A8EF41F2025B31700AD3C9A /* {{ cookiecutter.name }}-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3549BB261DA389CD00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-iOS" */;
@@ -319,60 +220,6 @@
 			name = "{{ cookiecutter.name }}-iOS";
 			productName = "{{ cookiecutter.name }}-iOS";
 			productReference = 3549BB211DA389CD00C63030 /* {{ cookiecutter.name }}.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3549BB2D1DA389DB00C63030 /* {{ cookiecutter.name }}-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-watchOS" */;
-			buildPhases = (
-				3549BB291DA389DB00C63030 /* Sources */,
-				3549BB2A1DA389DB00C63030 /* Frameworks */,
-				3549BB2B1DA389DB00C63030 /* Headers */,
-				3549BB2C1DA389DB00C63030 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "{{ cookiecutter.name }}-watchOS";
-			productName = "{{ cookiecutter.name }}-watchOS";
-			productReference = 3549BB2E1DA389DB00C63030 /* {{ cookiecutter.name }}.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-macOS" */;
-			buildPhases = (
-				3549BB361DA389E800C63030 /* Sources */,
-				3549BB371DA389E800C63030 /* Frameworks */,
-				3549BB381DA389E800C63030 /* Headers */,
-				3549BB391DA389E800C63030 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "{{ cookiecutter.name }}-macOS";
-			productName = "{{ cookiecutter.name }}-macOS";
-			productReference = 3549BB3B1DA389E800C63030 /* {{ cookiecutter.name }}.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-tvOS" */;
-			buildPhases = (
-				3549BB431DA389F300C63030 /* Sources */,
-				3549BB441DA389F300C63030 /* Frameworks */,
-				3549BB451DA389F300C63030 /* Headers */,
-				3549BB461DA389F300C63030 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "{{ cookiecutter.name }}-tvOS";
-			productName = "{{ cookiecutter.name }}-tvOS";
-			productReference = 3549BB481DA389F300C63030 /* {{ cookiecutter.name }}.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3549BB601DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS */ = {
@@ -394,85 +241,26 @@
 			productReference = 3549BB611DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3549BB6F1DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-tvOS" */;
-			buildPhases = (
-				3549BB6C1DA38AEF00C63030 /* Sources */,
-				3549BB6D1DA38AEF00C63030 /* Frameworks */,
-				3549BB6E1DA38AEF00C63030 /* Resources */,
-				35B7423A1F82A63600829B21 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3549BB771DA38AEF00C63030 /* PBXTargetDependency */,
-			);
-			name = "{{ cookiecutter.name }}Tests-tvOS";
-			productName = "{{ cookiecutter.name }}Tests-tvOS";
-			productReference = 3549BB701DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3549BB7E1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-macOS" */;
-			buildPhases = (
-				3549BB7B1DA38B0000C63030 /* Sources */,
-				3549BB7C1DA38B0000C63030 /* Frameworks */,
-				3549BB7D1DA38B0000C63030 /* Resources */,
-				35B742331F82A60600829B21 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3549BB861DA38B0000C63030 /* PBXTargetDependency */,
-			);
-			name = "{{ cookiecutter.name }}Tests-macOS";
-			productName = "{{ cookiecutter.name }}Tests-macOS";
-			productReference = 3549BB7F1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3549BAFC1DA387DB00C63030 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = {{ cookiecutter.github_name }};
+				ORGANIZATIONNAME = FRAMEWORKGITHUBNAME;
 				TargetAttributes = {
+					2A8EF41E2025B31700AD3C9A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					3549BB201DA389CD00C63030 = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
-					3549BB2D1DA389DB00C63030 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = "";
-						ProvisioningStyle = Automatic;
-					};
-					3549BB3A1DA389E800C63030 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					3549BB471DA389F300C63030 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
 					3549BB601DA38ADB00C63030 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					3549BB6F1DA38AEF00C63030 = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					3549BB7E1DA38B0000C63030 = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
@@ -485,6 +273,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3549BAFB1DA387DB00C63030;
 			productRefGroup = 3549BB061DA387DB00C63030 /* Products */;
@@ -493,38 +282,23 @@
 			targets = (
 				3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */,
 				3549BB601DA38ADB00C63030 /* {{ cookiecutter.name }}Tests-iOS */,
-				3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */,
-				3549BB7E1DA38B0000C63030 /* {{ cookiecutter.name }}Tests-macOS */,
-				3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */,
-				3549BB6F1DA38AEF00C63030 /* {{ cookiecutter.name }}Tests-tvOS */,
-				3549BB2D1DA389DB00C63030 /* {{ cookiecutter.name }}-watchOS */,
+				2A8EF41E2025B31700AD3C9A /* {{ cookiecutter.name }}-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2A8EF41D2025B31700AD3C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8EF42C2025B31700AD3C9A /* LaunchScreen.storyboard in Resources */,
+				2A8EF4292025B31700AD3C9A /* Assets.xcassets in Resources */,
+				2A8EF4272025B31700AD3C9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3549BB1F1DA389CD00C63030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB2C1DA389DB00C63030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB391DA389E800C63030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB461DA389F300C63030 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -538,23 +312,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3549BB6E1DA38AEF00C63030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB7D1DA38B0000C63030 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A8EF41B2025B31700AD3C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8EF4242025B31700AD3C9A /* ViewController.swift in Sources */,
+				2A8EF4222025B31700AD3C9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3549BB1C1DA389CD00C63030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,75 +332,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3549BB291DA389DB00C63030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359649061FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB361DA389E800C63030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359649041FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB431DA389F300C63030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				359649051FB18CC000FC7ADC /* {{ cookiecutter.name }}.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3549BB5D1DA38ADB00C63030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3549BB8B1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB6C1DA38AEF00C63030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3549BB8D1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3549BB7B1DA38B0000C63030 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3549BB8C1DA38C0A00C63030 /* {{ cookiecutter.name }}Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2A8EF4322025B42F00AD3C9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */;
+			targetProxy = 2A8EF4312025B42F00AD3C9A /* PBXContainerItemProxy */;
+		};
 		3549BB681DA38ADB00C63030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3549BB201DA389CD00C63030 /* {{ cookiecutter.name }}-iOS */;
 			targetProxy = 3549BB671DA38ADB00C63030 /* PBXContainerItemProxy */;
 		};
-		3549BB771DA38AEF00C63030 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3549BB471DA389F300C63030 /* {{ cookiecutter.name }}-tvOS */;
-			targetProxy = 3549BB761DA38AEF00C63030 /* PBXContainerItemProxy */;
-		};
-		3549BB861DA38B0000C63030 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3549BB3A1DA389E800C63030 /* {{ cookiecutter.name }}-macOS */;
-			targetProxy = 3549BB851DA38B0000C63030 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		2A8EF4252025B31700AD3C9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8EF4262025B31700AD3C9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8EF42A2025B31700AD3C9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8EF42B2025B31700AD3C9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2A8EF42F2025B31700AD3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8EF4302025B31700AD3C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "{{ cookiecutter.name }}-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3549BB0B1DA387DB00C63030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -758,10 +546,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }};
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -777,139 +565,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }};
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		3549BB341DA389DB00C63030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		3549BB351DA389DB00C63030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		3549BB411DA389E800C63030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3549BB421DA389E800C63030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		3549BB4E1DA389F300C63030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		3549BB4F1DA389F300C63030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
-				PRODUCT_NAME = {{ cookiecutter.name }};
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -924,7 +585,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -941,90 +602,23 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3549BB791DA38AEF00C63030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		3549BB7A1DA38AEF00C63030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
-				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
-		3549BB881DA38B0000C63030 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3549BB891DA38B0000C63030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2A8EF42E2025B31700AD3C9A /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8EF42F2025B31700AD3C9A /* Debug */,
+				2A8EF4302025B31700AD3C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3549BAFF1DA387DB00C63030 /* Build configuration list for PBXProject "{{ cookiecutter.name }}" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1043,33 +637,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB331DA389DB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3549BB341DA389DB00C63030 /* Debug */,
-				3549BB351DA389DB00C63030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3549BB401DA389E800C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3549BB411DA389E800C63030 /* Debug */,
-				3549BB421DA389E800C63030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3549BB4D1DA389F300C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3549BB4E1DA389F300C63030 /* Debug */,
-				3549BB4F1DA389F300C63030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3549BB691DA38ADB00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1079,25 +646,8 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3549BB781DA38AEF00C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3549BB791DA38AEF00C63030 /* Debug */,
-				3549BB7A1DA38AEF00C63030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3549BB871DA38B0000C63030 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.name }}Tests-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3549BB881DA38B0000C63030 /* Debug */,
-				3549BB891DA38B0000C63030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 3549BAFC1DA387DB00C63030 /* Project object */;
 }
+
