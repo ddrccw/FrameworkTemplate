@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+workspace '{{ cookiecutter.name }}'
+
+target '{{ cookiecutter.name }}-iOS' do
+
+    target '{{ cookiecutter.name }}Tests-iOS' do
+    end
+
+    target '{{ cookiecutter.name }}-Demo' do
+    end
+
+end
+
+
+
