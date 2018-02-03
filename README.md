@@ -11,16 +11,16 @@ A template for new Framework project.
 
 [![Travis](https://travis-ci.org/ddrccw/FrameworkTemplate.svg?branch=develop)](https://travis-ci.org/ddrccw/FrameworkTemplate.svg?branch=develop)
 
-![Template](http://i.imgur.com/f6elUWD.png)
-
 ## What's in the template?
 
 - Deployment Targets - iOS 8.0 
 - Xcode 9.0
 - Swift 4.0
 - Dependency Managers - CocoaPods / Carthage / Swift Package Manager
-- TravisCI
 - Readme
+- Dangerfile / Gemfile / Jazzy
+- Github Templates (CODE_OF_CONDUCT, CONTRIBUTING, ISSUE_TEMPLATE, PULL_REQUEST_TEMPLATE)
+- TravisCI
 - MIT LICENSE
 
 ## Usage
@@ -41,7 +41,18 @@ However, if you want to use the most recent template you should still run the fu
 ## Built With FrameworkTemplate
 
 - [Restofire](http://github.com/Restofire/Restofire)
-- [RestofireGloss](http://github.com/Restofire/RestofireGloss)
+
+## Credits
+
+*Some of the ideas and wording for the statements above were based on work by the [Alamofire](https://github.com/Alamofire/Alamofire) and [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) communities. We commend them for their efforts.*
+
+## Contributing
+
+Issues and pull requests are welcome!
+
+## Author
+
+Rahul Katariya [@rahulkatariya91](https://twitter.com/rahulkatariya91)
 
 ## License
 
