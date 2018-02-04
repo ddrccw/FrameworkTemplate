@@ -194,7 +194,7 @@ Issues and pull requests are welcome!
 
 ## Author
 
-{{ cookiecutter.full_name }} [@{{ cookiecutter.twitter }}](https://twitter.com/{{ cookiecutter.twitter }})
+{{ cookiecutter.full_name }} [@{{ cookiecutter.github_name }}](https://github.com/{{ cookiecutter.github_name }})
 
 ## License
 

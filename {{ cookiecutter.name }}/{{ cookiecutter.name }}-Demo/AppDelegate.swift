@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  {{ cookiecutter.name }}-Demo
 //
-//  Created by {{ cookiecutter.full_name }} on 2018/2/3.
+//  Created by {{ cookiecutter.github_name }} on 2018/2/3.
 //  Copyright © 2018年 {{ cookiecutter.github_name }}. All rights reserved.
 //
 

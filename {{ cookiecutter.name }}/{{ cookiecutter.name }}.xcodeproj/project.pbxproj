@@ -249,7 +249,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = FRAMEWORKGITHUBNAME;
+				ORGANIZATIONNAME = {{ cookiecutter.github_name }};
 				TargetAttributes = {
 					2A8EF41E2025B31700AD3C9A = {
 						CreatedOnToolsVersion = 9.0;
@@ -389,7 +389,7 @@
 				INFOPLIST_FILE = "{{ cookiecutter.name }}-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "{{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -412,7 +412,7 @@
 				INFOPLIST_FILE = "{{ cookiecutter.name }}-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = "{{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -549,7 +549,7 @@
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -568,7 +568,7 @@
 				INFOPLIST_FILE = "${PRODUCT_NAME}/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }};
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }};
 				PRODUCT_NAME = {{ cookiecutter.name }};
 				SKIP_INSTALL = YES;
 			};
@@ -585,7 +585,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -602,7 +602,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FRAMEWORKBUNDLEIDENTIFIER.{{ cookiecutter.name }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = {{ cookiecutter.bundle_identifier }}.{{ cookiecutter.name }}Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -650,4 +650,3 @@
 	};
 	rootObject = 3549BAFC1DA387DB00C63030 /* Project object */;
 }
-

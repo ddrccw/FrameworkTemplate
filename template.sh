@@ -12,7 +12,6 @@ replace "FRAMEWORKFULLNAME" "{{ cookiecutter.full_name }}"
 replace "FRAMEWORKEMAIL" "{{ cookiecutter.email }}"
 replace "FRAMEWORKGITHUBNAME" "{{ cookiecutter.github_name }}"
 replace "FRAMEWORKHOMEPAGE" "{{ cookiecutter.homepage }}"
-replace "FRAMEWORKTWITTER" "{{ cookiecutter.twitter }}"
 
 # Do Renames
 LC_ALL=C find ./FRAMEWORKNAME -type f -exec rename -p -S "FRAMEWORKNAME" "{{ cookiecutter.name }}" {} +

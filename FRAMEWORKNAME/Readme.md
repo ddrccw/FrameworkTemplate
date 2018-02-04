@@ -194,7 +194,7 @@ Issues and pull requests are welcome!
 
 ## Author
 
-FRAMEWORKFULLNAME [@FRAMEWORKTWITTER](https://twitter.com/FRAMEWORKTWITTER)
+FRAMEWORKFULLNAME [@FRAMEWORKGITHUBNAME](https://github.com/FRAMEWORKGITHUBNAME)
 
 ## License
 
